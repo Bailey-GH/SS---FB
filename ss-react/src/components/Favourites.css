@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.favs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    
+}
+
+.btn-delete {
+    margin-left: 16px;
+}
+
+.fave-items {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,35 @@
+.form {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.label {
+  padding-left: 140px;
+  margin-bottom: 5px;
+  
+}  
+
+.stock-form {
+  padding: 0px;
+  margin: 0%;
+} 
+
+
+.chartWrapper {
+  width: 98%;
+}
+
+.add-favourite {
+  display: flex;
+
+}
+  
+@media(min-width: 768px) {
+  .chartWrapper {
+    height: 25%;
+    width: 50%;
+    margin: auto;
+  }
+}

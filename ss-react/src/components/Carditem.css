@@ -1,0 +1,65 @@
+
+.container {
+    height: min-content;
+    border: 10px solid #fff;
+    display: flex;
+}
+
+.fave-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.fav-items li{
+    margin: 0.5rem;
+    display: flex;
+    background-color: #fff;
+    font-size: 0.5rem;
+    color: black;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.fav-item {
+    flex: 1;
+    padding: 0rem 0.5rem;
+    background-color: #fff;
+    border: 4px solid black;
+    padding: 20px;
+}
+
+.card {
+    padding: 4rem;
+    background: #fff;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.cards-item {
+    margin-bottom: 10px;
+}
+
+.card-items-link {
+display: flex;
+flex-flow: column;
+width: 100%;
+box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+-webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.17));
+filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.17));
+border-radius: 10px;
+overflow: hidden;
+text-decoration: none;
+}
+
+.cards-item-info {
+    padding: 5px;
+}
+
+.cards-item-text {
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+}

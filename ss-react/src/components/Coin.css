@@ -1,0 +1,58 @@
+.bt-coin-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bt-coin-row {
+  display: flex;
+  flex-direction: row;
+  flex: start;
+  align-items: center;
+  height: fit-content;
+  border-bottom: 1px solid #d7d7d7;
+  width: 500px;
+}
+
+.bt-coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+  min-width: 100;
+}
+
+.bt-coin h1 {
+  font-size: 16px;
+  width: 150px;
+}
+
+.bt-coin img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.bt-coin-symbol {
+  text-transform: uppercase;
+}
+
+.bt-coin-data {
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.bt-coin-price {
+  width: 50;
+}
+
+
+
+@media screen and (max-width: 960) {
+
+  .coin-container {
+    display: flex;
+    flex: start;
+  }
+
+}
